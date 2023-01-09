@@ -1,1 +1,25 @@
-<p>features works!</p>
+<section class="feature sectionPadding">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-10 offset-sm-1 text-center">
+        <h2 class="pri-heading mb-4">Tinyone Features</h2>
+        <h3 class="sec-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12" *ngFor="let feature of featureArray">
+        <div class="featureThumb">
+          <div class="row">
+            <div class="col-sm-3 text-center">
+              <i [class]="feature.iconClass"></i>
+            </div>
+            <div class="col-sm-9">
+                <h4 class="sec-heading">{{feature.title}}</h4>
+                <p>{{feature.description}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

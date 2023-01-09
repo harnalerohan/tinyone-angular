@@ -1,11 +1,13 @@
+@import '../../../../assets/sass/abstract/variables';
+
 .navbar-nav {
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
   .nav-item {
     margin-left: 10px; 
     .nav-link {
-      color: #000;
-      font-size: 20px;
+      color: $color-dark;
+      font-size: 24px;
       text-transform: capitalize;
     }
   }

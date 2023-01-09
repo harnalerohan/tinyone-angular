@@ -1,0 +1,28 @@
+.pri-heading {
+  font-size: 32px;
+  color: #010101;
+  margin-bottom: 20px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+.sec-heading {
+  color: #313841;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+.para {
+  color: #555555;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.contact {
+  .pri-heading  {
+    color: $color-primary;
+  }
+  .sec-heading {
+    color: $color-grey-1;
+  }
+}

@@ -14,7 +14,7 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
     HeroSectionComponent,
     FeaturesComponent,
     ContactComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
